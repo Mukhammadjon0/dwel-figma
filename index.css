@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+}
+a {
+  text-decoration: none;
+}
+img {
+  cursor: pointer;
+}
+.container {
+  width: 1400px;
+  margin: auto;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+.nav-logo a h1 {
+  font-weight: 400;
+  font-size: 17px;
+  color: #000000;
+}
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.nav-right a {
+  font-weight: 400;
+  font-size: 17px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.main {
+  background-image: url(./img/IMAGE.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 1400px;
+  height: 100vh;
+  margin: auto;
+}
+
+.projects {
+  margin: 60px auto;
+}
+.projects h1 {
+  font-weight: 400;
+  font-size: 17px;
+  color: #000000;
+}
+
+.card p {
+  font-weight: 400;
+  font-size: 23px;
+  color: #000000;
+}
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 28px auto;
+}
+
+footer {
+  font-weight: 400;
+  padding: 68px 0;
+  font-size: 18px;
+  color: #000000;
+  display: flex;
+  justify-content: space-between;
+}
+footer a{
+    color: black;
+}
+.footer-left a{
+    text-decoration: underline;
+}
+
+.footer-right{
+    display: flex;
+    gap: 160px;
+}
+.wtf{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
